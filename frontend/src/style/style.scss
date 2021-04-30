@@ -1,0 +1,87 @@
+@import "reset";
+$lightcolor: #FBB03B;
+$darkcolor: #39B69F;
+
+body {
+	background-color: $lightcolor;
+	font-family: 'Overpass', sans-serif;	
+	/*border: black 1px solid;*/
+}
+
+.App {	
+	/*border: red 1px solid;	*/
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+.Input {
+	color: #39B69F;
+	margin: 10px;
+	width:50%;
+	height: 3rem;
+}
+
+.text {
+	color: #39B69F;
+}
+
+.Form {
+	padding: 20px;
+	width: 100%;
+}
+
+.aszf {
+	color:#39B69F;
+}
+
+button {
+	background-color: #39B69F;
+	color:#fff;
+	border: 1px solid #fff;
+	margin: 10px;
+	width:30%;
+	height: 3rem;
+}
+
+.menu-container {
+	position: absolute;
+	top: 4vh;
+	right:5vw;
+}
+
+@media screen and (min-width: 768px) {
+	.menu-container {
+		position: absolute;
+		top: 5vh;
+		right: 7vw;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.menu-container {
+		position: absolute;
+		top: 3vh;
+		right: 10vw;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.menu-container {
+		position: absolute;
+		top: 3vh;
+		right: 3vw;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.menu-container {
+		position: absolute;
+		top: 4vh;
+		right: 1vw;
+	}
+}
+
+
